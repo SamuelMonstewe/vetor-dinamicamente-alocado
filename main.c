@@ -25,5 +25,6 @@ int main()
         printf("%d", Vetor[i]);
         printf("\t");
     }
+    free(Vetor);
     return 0;
 }
